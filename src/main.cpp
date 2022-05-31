@@ -5,7 +5,6 @@
 #include "parser/fasta_parser.h"
 #include "parser/fastq_parser.h"
 
-namespace genome_mapper {
 int main(int argc, char **argv) {
     if (argc == 2 && std::strcmp(argv[1], "-h") == 0) {
         std::cout
@@ -20,5 +19,4 @@ int main(int argc, char **argv) {
         }
     }
     return 0;
-}
 }
